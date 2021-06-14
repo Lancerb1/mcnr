@@ -1,12 +1,18 @@
 <?php
 
+$staff_no_pic = "staff_no_image.jpg";
+
+/* Past staff
+[632, "saz", "ee", "May 2020", "mlgerror2.png"]
+*/
+
 $json_data = <<<_END
 [
 	{
 		"name": "Community Manager",
 		"id": -1,
 		"color": "green",
-		"size": 12,
+		"size": 16,
 		"members": [
 			[99, "Trina", "us", "January 2020", "trina.png"]
 		]
@@ -15,12 +21,12 @@ $json_data = <<<_END
 		"name": "Managers",
 		"id": -1,
 		"color": "green",
-		"size": 12,
+		"size": 16,
 		"members": [
 			[290, "Lancerb1", "us", "February 2020", "lancer.png"],
 			[476, "Cashewz", "bh", "February 2020", "cashewz2.png"],
-			[632, "saz", "ee", "May 2020", "mlgerror2.png"],
-			[1174, "Domingo", "hr", "September 2020", "domingo.jpg"]
+			[1174, "Domingo", "hr", "September 2020", "domingo.jpg"],
+			[1847, "MajesticFudgie", "gb", "Steptember 2020", "majesticfudgie.png"]
 		]
 	},
 	{
@@ -36,7 +42,9 @@ $json_data = <<<_END
 			[17, "GtaFreak", "au", "January 2021", "staff_madddogg.png"],
 			[595, "Sousage", "id", "March 2021", "staff_sousage.png"],
 			[917, "Charlie", "hr", "March 2021", "charlie.png"],
-			[778, "Dudesdog", "us", "March 2021", "dudesdog3.png"]
+			[778, "Dudesdog", "us", "March 2021", "dudesdog3.png"],
+			[911, "TheDan", "eg", "February 2021", "dan.png"],
+			[801, "Pogger", "in", "April 2021", "dpit2.png"]
 		]
 	},
 	{
@@ -46,10 +54,12 @@ $json_data = <<<_END
 		"size": 16,
 		"members": [
 			[1957, "ViperRadius", "ph", "December 2020", "viperradius.png"],
-			[685, "nxy", "al", "January 2021", "nxy.png"],
 			[645, "cynosy", "ee", "January 2021", "cynosy.jpg"],
-			[911, "Dan", "eg", "February 2021", "dan.png"],
-			[21, "YellowFlash", "au", "February 2021", "yellowflash.png"]
+			[21, "YellowFlash", "au", "February 2021", "yellowflash.png"],
+			[656, "Bahzi", "nl", "April 2021", "bahzi.png"],
+			[2491, "Stylebender", "ee", "April 2021", "styleblender.png"],
+			[284, "[RA]Alex184", "us", "May 2021", "alex184.png"],
+			[2449, "Faksy", "si", "April 2021", "faksy.png"]
 		]
 	},
 	{
@@ -58,11 +68,9 @@ $json_data = <<<_END
 		"color": "blue",
 		"size": 16,
 		"members": [
-			[1847, "MajesticFudgie", "gb", "Steptember 2020", "majesticfudgie.png"],
-			[2491, "Stylebender", "ee", "April 2021", "styleblender.png"],
-			[656, "Bahzi", "nl", "April 2021", "bahzi.png"],
 			[2577, "Kreenzee", "us", "April 2021", "kareenzee.png"],
-			[2449, "Faksy", "si", "April 2021", "faksy.png"]
+			[482, "Parzival", "pk", "May 2021", "parzival.png"],
+			[2070, "[RA]Eddz", "fr", "June 2021", "{$staff_no_pic}"]
 		]
 	}
 ]
@@ -88,7 +96,7 @@ Running MCNR is not an easy task, and we have a solid team of management, admins
 
 [center]
 
-[b][size=16pt][color=red][url=https://mikescnr.com/forum/index.php?action=groups;sa=members;group=1][u]Developers[/u][/url][/color][/size][/b]
+[b][size=16pt][color=red][url=https://mikescnr.com/forum/index.php?action=groups;sa=members;group=1]Developers[/url][/color][/size][/b]
 
 [table]
 [tr]
@@ -103,8 +111,6 @@ Since 2012
 [/table]
 
 [hr]
-
-[b][size=16pt][color=green][url=https://mikescnr.com/forum/index.php?action=groups;sa=members;group=12][u]Management[/u][/url][/color][/size][/b]
 
 <?php
 
